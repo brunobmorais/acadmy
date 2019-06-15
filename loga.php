@@ -16,45 +16,42 @@ $obj = json_decode($info);
         $discentes = $obj->usuarios;
         foreach ($discentes as $cadaAluno) {
             if ($cadaAluno->email == $email) {
+                if ($cadaAluno->tipo=="Aluno"){
+                    $retorno['redireciona'] = "./";
 
-                $sessao->gravarCampo("NOME", $cadaAluno->nome);
-                $sessao->gravarCampo("EMAIL", $cadaAluno->email);
-                $sessao->gravarCampo("CPF", $cadaAluno->cpf);
-                $sessao->gravarCampo("NOMEESCOLA", $cadaAluno->nomeescola);
-                $sessao->gravarCampo("TIPO", $cadaAluno->tipo);
-                $sessao->gravarCampo("CIDADE", $cadaAluno->cidade);
-                $sessao->gravarCampo("OPCAOCURSO", $cadaAluno->opcaocurso);
-                $sessao->gravarCampo("FOTO", $cadaAluno->foto);
+                    $sessao->gravarCampo("NOME", $cadaAluno->nome);
+                    $sessao->gravarCampo("EMAIL", $cadaAluno->email);
+                    $sessao->gravarCampo("CPF", $cadaAluno->cpf);
+                    $sessao->gravarCampo("NOMEESCOLA", $cadaAluno->nomeescola);
+                    $sessao->gravarCampo("TIPO", $cadaAluno->tipo);
+                    $sessao->gravarCampo("CIDADE", $cadaAluno->cidade);
+                    $sessao->gravarCampo("OPCAOCURSO", $cadaAluno->opcaocurso);
+                    $sessao->gravarCampo("FOTO", $cadaAluno->foto);
+
+                } else{
+                    $retorno['redireciona'] = "./instituicao.php";
+
+                    $sessao->gravarCampo("NOME", $cadaAluno->nome);
+                    $sessao->gravarCampo("SIGLA", $cadaAluno->sigla);
+                    $sessao->gravarCampo("EMAIL", $cadaAluno->email);
+                    $sessao->gravarCampo("CNPJ", $cadaAluno->cnpj);
+                    $sessao->gravarCampo("TIPO", $cadaAluno->tipo);
+                    $sessao->gravarCampo("CIDADE", $cadaAluno->cidade);
+
+                }
 
                 $retorno['error'] = "0";
                 $retorno['msg'] = "";
 
-                if (empty($aRedireciona)) {
-                    $retorno['redireciona'] = "./";
-                } else {
-                    $sessao->gravarCampo("REDIRECIONA", "");
-                    $retorno['redireciona'] = $aRedireciona;
-                }
-
                 echo json_encode($retorno);
 
-
-            } /*else {
-                $retorno['error'] = "1";
-                $retorno['msg'] = "Login ou senha incorreto!";
-                echo json_encode($retorno);
-            }*/
+            }
         }
     } else {
-    $retorno['error'] = "1";
-    $retorno['msg']="Usuário não cadastrado!";
-    echo json_encode($retorno);
-}
-
-
-
-
-
+        $retorno['error'] = "1";
+        $retorno['msg'] = "Usuário não cadastrado!";
+        echo json_encode($retorno);
+    }
 
 
 
