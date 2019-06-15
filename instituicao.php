@@ -36,7 +36,7 @@ include($raiz . "files/php/topo.php"); ?>
                         </div>
                         <div class="profile-widget-item">
                             <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Aptos
-                                <a href="webmail.php" class="btn btn-sm btn-light btn-round"><span class="mdi mdi-email"></span></a>
+                                <a href="planosInstituicao.php" class="btn btn-sm btn-light btn-round"><span class="mdi mdi-email"></span></a>
                             </div>
                             <div class="profile-widget-item-value">254</div>
                         </div>
