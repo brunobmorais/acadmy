@@ -1,11 +1,11 @@
 <?
 $currentpage = $_SERVER['REQUEST_URI'];
 
-if (strpos( $currentpage, "index.php" )){
+if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.php" )){
     $perfilactive = "active";
-} else if (strpos( $currentpage, "rank" )){
+} else if (strpos( $currentpage, "rank") || strpos( $currentpage, "rankinstituicao.php" )){
     $rankactive = "active";
-} else if (strpos( $currentpage, "cursos" )){
+} else if (strpos( $currentpage, "cursos" ) || strpos( $currentpage, "cursosinstituicao.php" )){
     $cursosactive = "active";
 }
 ?>
@@ -15,17 +15,17 @@ if (strpos( $currentpage, "index.php" )){
     <div class="navbar-bg" id="navbartopobg"></div>
     <nav class="navbar navbar-expand-lg main-navbar">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><img src="<?=$raiz?>files/img/logo-branco.png" height="40px"/> </a>
+            <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="navbar-brand"><img src="<?=$raiz?>files/img/logo-branco.png" height="40px"/> </a>
             <form class="form-inline ml-auto">
             </form>
             <ul class="navbar-nav navbar-right">
-                <a href="./index.php" class="nav-link nav-link-lg nav-link-user">
+                <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Perfil</div>
                 </a>
-                <a href="rank.php#rank" class="nav-link nav-link-lg nav-link-user">
+                <a href="<?=$tipoUsuarioSessao=="Aluno"?'rank.php#rank':'rankinstituicao.php#cursos'?>" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Rank</div>
                 </a>
-                <a href="cursos.php#cursos" class="nav-link nav-link-lg nav-link-user">
+                <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Cursos</div>
                 </a>
                 <a href="exercicios.php" class="nav-link nav-link-lg nav-link-user">
@@ -55,9 +55,9 @@ if (strpos( $currentpage, "index.php" )){
 </div>
 <div class="navbottom">
 <div class="navbar">
-    <a href="index.php#perfil" class="<?=$perfilactive?>" ><span class="mdi mdi-home"></span> Perfil</a>
-    <a href="rank.php#rank" class="<?=$rankactive?>"><span class="mdi mdi-radar"></span> Rank</a>
-    <a href="cursos.php#cursos"  class="<?=$cursosactive?>"><span class="mdi mdi-worker"></span>Cursos</a>
+    <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="<?=$perfilactive?>" ><span class="mdi mdi-home"></span> Perfil</a>
+    <a href="<?=$tipoUsuarioSessao=="Aluno"?'rank.php#rank':'rankinstituicao.php#cursos'?>" class="<?=$rankactive?>"><span class="mdi mdi-radar"></span> Rank</a>
+    <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>"  class="<?=$cursosactive?>"><span class="mdi mdi-worker"></span>Cursos</a>
 </div>
 </div>
 <style>
