@@ -29,15 +29,26 @@ $alerta         = new Alerta();
 $notificacao    = new Push();
 
 //PEGAR VALORES DA SESSÃO
-$nomeUsuarioSessao          = $sessao->pegarCampo("NOME");
-$emailUsuarioSessao         = $sessao->pegarCampo("EMAIL");
-$cpfcnpjUsuarioSessao       = $sessao->pegarCampo("CPFCNPJ");
-$nomeEscolaUsuarioSessao    = $sessao->pegarCampo("NOMEESCOLA");
 $tipoUsuarioSessao          = $sessao->pegarCampo("TIPO");
-$cidadeUsuarioSessao        = $sessao->pegarCampo("CIDADE");
-$opcaoCursoUsuarioSessao    = $sessao->pegarCampo("OPCAOCURSO");
-$fotoUsuarioSessao          = $sessao->pegarCampo("FOTO");
-$nomeQuebradoUsuarioSessao  = explode(" ", $nomeUsuarioSessao);
+if ($tipoUsuarioSessao=="Aluno") {
+    $nomeUsuarioSessao = $sessao->pegarCampo("NOME");
+    $emailUsuarioSessao = $sessao->pegarCampo("EMAIL");
+    $cpfcnpjUsuarioSessao = $sessao->pegarCampo("CPF");
+    $nomeEscolaUsuarioSessao = $sessao->pegarCampo("NOMEESCOLA");
+    $tipoUsuarioSessao = $sessao->pegarCampo("TIPO");
+    $cidadeUsuarioSessao = $sessao->pegarCampo("CIDADE");
+    $opcaoCursoUsuarioSessao = $sessao->pegarCampo("OPCAOCURSO");
+    $fotoUsuarioSessao = $sessao->pegarCampo("FOTO");
+    $nomeQuebradoUsuarioSessao = explode(" ", $nomeUsuarioSessao);
+} else {
+    $nomeUsuarioSessao = $sessao->pegarCampo("NOME");
+    $siglaUsuarioSessao = $sessao->pegarCampo("SIGLA");
+    $emailUsuarioSessao = $sessao->pegarCampo("EMAIL");
+    $cpfcnpjUsuarioSessao = $sessao->pegarCampo("CNPJ");
+    $tipoUsuarioSessao = $sessao->pegarCampo("TIPO");
+    $cidadeUsuarioSessao = $sessao->pegarCampo("CIDADE");
+    $nomeQuebradoUsuarioSessao = explode(" ", $siglaUsuarioSessao);
+}
 
 //INCLUDE MÓDULO
 include($raiz . "files/php/modulo.php");

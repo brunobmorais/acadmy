@@ -103,10 +103,14 @@ $matematica = 0;
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
                             <div class="profile-widget-item-label">Minha média até o momento</div>
+<<<<<<< HEAD
                             <div class="profile-widget-item-value" data-toggle="modal" data-target="#exampleModal"
                                  style="font-size: 43px"><span
                                         class="mdi mdi-emoticon-happy-outline"></span> <?= $mediaFinal ?> <a
                                         class="btn btn-sm btn-secondary ">Quero aumentar</a></div>
+=======
+                            <div class="profile-widget-item-value" style="font-size: 33px"><span class="mdi mdi-emoticon-happy-outline"></span> 35.2 <a href="esquecisenha.php" class="btn btn-sm btn-secondary ">Quero aumentar</a> </div>
+>>>>>>> 19489a12c0b4ffae5752ca8c2ba73bad32a9a689
                         </div>
                     </div>
                 </div>

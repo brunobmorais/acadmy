@@ -22,6 +22,15 @@
       "cidade": "Porto Nacional/TO",
       "opcaocurso": "Direito",
       "foto": "2.jpg"
+    },
+    {
+      "nome": "Faculdade Serra do Carmo - Palmas",
+      "sigla": "FASEC",
+      "email": "fasec@fasec.com",
+      "cnpj": "11111111111",
+      "senha": "123456",
+      "tipo": "Instituição",
+      "cidade": "Palmas/TO"
     }
   ]
 }

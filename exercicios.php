@@ -60,11 +60,11 @@ include($raiz . "files/php/topo.php"); ?>
                             <div class="pricing-details">
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
-                                    <div class="pricing-item-label">2 única tentativa/exercicio</div>
+                                    <div class="pricing-item-label">2 tentativas/exercicio</div>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
-                                    <div class="pricing-item-label">2 Exercício/Semana</div>
+                                    <div class="pricing-item-label">2 exercícios/Semana</div>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
