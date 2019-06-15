@@ -28,8 +28,8 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
                 <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Cursos</div>
                 </a>
-                <a href="exercicios.php" class="nav-link nav-link-lg nav-link-user">
-                    <div class="d-sm-none d-lg-inline-block">Exercícios</div>
+                <a href="meuEstudo.php" class="nav-link nav-link-lg nav-link-user">
+                    <div class="d-sm-none d-lg-inline-block">Estudo</div>
                 </a>
                 <li class="dropdown">
 
