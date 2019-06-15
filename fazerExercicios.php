@@ -13,7 +13,7 @@ include($raiz . "files/php/topo.php"); ?>
         <div class="section-body">
             <!--<h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>-->
-            <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="40px"/></h3>
+            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>" <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3>
             <h2 class="section-title">Exercícios de Humanas</h2>
             <p class="section-lead">História, Geografia, Filosofia e Sociologia.</p>
             <div class="row">

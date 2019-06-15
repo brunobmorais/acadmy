@@ -82,7 +82,7 @@ $matematica = 0;
         <div class="section-body">
             <!--<h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>-->
-            <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="40px"/></h3>
+            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>" <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3>
             <div class="card profile-widget">
                 <div class="profile-widget-header">
                     <img alt="image" src="<?= $raiz ?>files/upload/usua/<?= $fotoUsuarioSessao ?>"

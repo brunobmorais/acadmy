@@ -7,6 +7,8 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
     $rankactive = "active";
 } else if (strpos( $currentpage, "cursos" ) || strpos( $currentpage, "cursosinstituicao.php" )){
     $cursosactive = "active";
+} else if (strpos( $currentpage, "meuEstudo" )){
+    $meuestudoactive = "active";
 }
 ?>
 
@@ -28,9 +30,11 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
                 <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Cursos</div>
                 </a>
-                <a href="meuEstudo.php" class="nav-link nav-link-lg nav-link-user">
-                    <div class="d-sm-none d-lg-inline-block">Estudo</div>
-                </a>
+                <? if ($tipoUsuarioSessao=="Aluno"){?>
+                    <a href="meuEstudo.php" class="nav-link nav-link-lg nav-link-user">
+                        <div class="d-sm-none d-lg-inline-block">Estudo</div>
+                    </a>
+                <?}?>
                 <li class="dropdown">
 
                     <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
@@ -55,9 +59,13 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
 </div>
 <div class="navbottom">
 <div class="navbar">
-    <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="<?=$perfilactive?>" ><span class="mdi mdi-home"></span> Perfil</a>
-    <a href="<?=$tipoUsuarioSessao=="Aluno"?'rank.php#rank':'rankinstituicao.php#cursos'?>" class="<?=$rankactive?>"><span class="mdi mdi-radar"></span> Rank</a>
-    <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>"  class="<?=$cursosactive?>"><span class="mdi mdi-worker"></span>Cursos</a>
+    <?if ($tipoUsuarioSessao=="Aluno"){?>
+        <a href="meuEstudo.php" class="<?=$meuestudoactive?>" ><span class="mdi  mdi-18px mdi-school"></span> Estudo</a>
+    <?} else {?>
+        <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="<?=$perfilactive?>" ><span class="mdi mdi-18px mdi-home"></span> Perfil</a>
+    <?}?>
+    <a href="<?=$tipoUsuarioSessao=="Aluno"?'rank.php#rank':'rankinstituicao.php#cursos'?>" class="<?=$rankactive?>"><span class="mdi  mdi-18px mdi-trophy"></span> Rank</a>
+    <a href="<?=$tipoUsuarioSessao=="Aluno"?'cursos.php#cursos':'cursosinstituicao.php#cursos'?>"  class="<?=$cursosactive?>"><span class="mdi  mdi-18px mdi-school"></span> Cursos</a>
 </div>
 </div>
 
@@ -139,14 +147,16 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
             width: 100%;
             height: 60px;
             margin: 0px;
-            left: 0px
+            left: 0px;
+            -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
         }
 
         /* Style the links inside the navigation bar */
         .navbottom .navbar a {
             float: left;
             display: block;
-            color: #000;
+            color: #757575;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -160,7 +170,9 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
 
         /* Add a color to the active/current link */
         .navbottom .navbar a.active {
-            color: blue;
+            color:  blue;
+            font-weight: 700;
+
         }
 
         .navbartopo{
