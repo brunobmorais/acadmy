@@ -14,8 +14,8 @@ include($raiz . "files/php/header.php"); ?>
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
-                        <div class="login-brand mt-0 mb-4" >
-                            <a href="./login.php"> <img src="<?=$raiz?>files/img/logo-preto.png" height="60px"/></a>
+                        <div class="login-brand mt-0 mb-4">
+                            <a href="./login.php"> <img src="<?= $raiz ?>files/img/logo-preto.png" height="60px"/></a>
                         </div>
 
                         <div class="card card-primary in-up" id="cadastroLogin">
@@ -24,7 +24,8 @@ include($raiz . "files/php/header.php"); ?>
                                 <form class="needs-validation" novalidate>
                                     <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus/>
+                                        <input id="email" type="email" class="form-control" name="email" tabindex="1"
+                                               required autofocus/>
                                         <div class="invalid-feedback">
                                             Digite o email!
                                         </div>
@@ -46,7 +47,9 @@ include($raiz . "files/php/header.php"); ?>
                                     </div>
 
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-lg btn-primary btn-round btn-block font-weight-bold" tabindex="4"
+                                        <button type="button"
+                                                class="btn btn-lg btn-primary btn-round btn-block font-weight-bold"
+                                                tabindex="4"
                                                 onclick="login();">
                                             Entrar
                                         </button>
@@ -64,5 +67,18 @@ include($raiz . "files/php/header.php"); ?>
     </div>
 </div>
 <? include($raiz . "files/php/rodape.php") ?>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('sw.js').then(function (registration) {
+// Registration was successful
+//console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function (err) {
+// registration failed :(
+//console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
 
 
