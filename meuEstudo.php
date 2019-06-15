@@ -114,4 +114,3 @@ include($raiz . "files/php/topo.php"); ?>
 </div>
 <? include($raiz . "files/php/rodape.php") ?>
 <script src="files/js/modules-chartjs.js"></script>
-<script src="../assets/js/page/modules-chartjs.js"></script>
