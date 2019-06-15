@@ -14,6 +14,7 @@ include($raiz . "files/php/topo.php"); ?>
             <!--<h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>-->
             <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3></a>
+            <h4>Exercício</h4>
             <h2 class="section-title">Exercícios de Humanas</h2>
             <p class="section-lead">História, Geografia, Filosofia e Sociologia.</p>
             <div class="row">
