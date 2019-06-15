@@ -19,9 +19,9 @@ include($raiz . "files/php/topo.php"); ?>
                     <h4>Rank dos alunos</h4>
                 </div>
                 <div class="card-body">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Meu curso</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Curso</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Cidade</a>
@@ -32,7 +32,6 @@ include($raiz . "files/php/topo.php"); ?>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="card-body">
                                 <div class="mb-4 mt-4">
                                     <div class="text-small float-right font-weight-bold text-muted">558</div>
                                     <div class="font-weight-bold mb-1">1 <div class="bullet"></div> B. Santos</div>
@@ -106,12 +105,9 @@ include($raiz . "files/php/topo.php"); ?>
                                         <div class="progress-bar" role="progressbar" data-width="36%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-
-                            </div>
                         </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="card-body">
                                     <div class="mb-4 mt-4">
                                         <div class="text-small float-right font-weight-bold text-muted">558</div>
                                         <div class="font-weight-bold mb-1">1 <div class="bullet"></div> B. Santos</div>
@@ -185,13 +181,10 @@ include($raiz . "files/php/topo.php"); ?>
                                             <div class="progress-bar" role="progressbar" data-width="36%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
-
-                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="card-body">
                                     <div class="mb-4 mt-4">
                                         <div class="text-small float-right font-weight-bold text-muted">558</div>
                                         <div class="font-weight-bold mb-1">1 <div class="bullet"></div> B. Santos</div>
@@ -265,7 +258,6 @@ include($raiz . "files/php/topo.php"); ?>
                                             <div class="progress-bar" role="progressbar" data-width="36%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>

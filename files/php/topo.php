@@ -62,6 +62,10 @@ if (strpos( $currentpage, "index.php" )){
 </div>
 <style>
     @media (max-width: 1024px) {
+        .profile-widget{
+            margin-top: 0px;
+        }
+        
         .navbottom .navbar {
             background-color: #fff;
             overflow: hidden;
