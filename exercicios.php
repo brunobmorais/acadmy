@@ -25,7 +25,7 @@ include($raiz . "files/php/topo.php"); ?>
                         <div class="pricing-padding">
                             <div class="pricing-price">
                                 <div>Grátis</div>
-                                <div>P/ Sempre</div>
+                                <div></div>
                             </div>
                             <div class="pricing-details">
                                 <div class="pricing-item">
@@ -38,11 +38,11 @@ include($raiz . "files/php/topo.php"); ?>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
-                                    <div class="pricing-item-label">Comentários de Professores</div>
+                                    <div class="pricing-item-label">Comentado por Professores</div>
                                 </div>
                                 <div class="pricing-item">
-                                    <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
-                                    <div class="pricing-item-label">1 Teste de Proficiência</div>
+                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
+                                    <div class="pricing-item-label">3 Teste de Proficiência/Semana</div>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
@@ -76,7 +76,7 @@ include($raiz . "files/php/topo.php"); ?>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
-                                    <div class="pricing-item-label">Comentários de Professores</div>
+                                    <div class="pricing-item-label">Comentado por Professores</div>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
@@ -114,7 +114,7 @@ include($raiz . "files/php/topo.php"); ?>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
-                                    <div class="pricing-item-label">Comentários de Professores</div>
+                                    <div class="pricing-item-label">Comentado por Professores</div>
                                 </div>
                                 <div class="pricing-item">
                                     <div class="pricing-item-icon"><i class="fas fa-check"></i></div>
