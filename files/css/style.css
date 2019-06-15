@@ -503,5 +503,26 @@ body:before {
 .pace.pace-inactive {
   display: none;
 }
+.mediaFinal{
+  cursor: pointer;
+}
+.cadaMediaModal{
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.table-notas tr td, .table-notas tr th{
+  text-align: center;
+}
+
+.divEnfatica{
+  height: 140px;
+  color: #fff;
+  line-height: 140px;
+  vertical-align: middle;
+  font-size: 2em;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
 
 /*FIM DO PACE*/

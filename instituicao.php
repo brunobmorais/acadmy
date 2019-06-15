@@ -28,26 +28,26 @@ include($raiz . "files/php/topo.php"); ?>
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
                             <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span>
-                                interessados
+                                Interessados
                             </div>
-                            <div class="profile-widget-item-value">10</div>
+                            <div class="profile-widget-item-value">1104</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> acima
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
                                 do corte
                             </div>
-                            <div class="profile-widget-item-value">6</div>
+                            <div class="profile-widget-item-value">254</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span>Vagas
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span> Vagas
                             </div>
-                            <div class="profile-widget-item-value">15</div>
+                            <div class="profile-widget-item-value">60</div>
                         </div>
                     </div>
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label">Média total</div>
-                            <div class="profile-widget-item-value" style="font-size: 33px"> 20.2</div>
+                            <div class="profile-widget-item-label">Média Geral</div>
+                            <div class="profile-widget-item-value" style="font-size: 33px"> 5.2</div>
                         </div>
                     </div>
                 </div>
@@ -55,44 +55,8 @@ include($raiz . "files/php/topo.php"); ?>
                     <a href="#" class="btn btn-outline-primary btn-round">
                         <i class="mdi mdi-18px mdi-plus"> </i> Exercício
                     </a>
-                </div>
-            </div>
-            <div class="card profile-widget">
-                <div class="profile-widget-header">
-                    <div class="profile-widget-items">
-                        <div class="profile-widget-item">
-                            <div class="profile-widget-item-label" style="font-size: 20px">Administração</div>
-                        </div>
-                    </div>
-                    <div class="profile-widget-items">
-                        <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span>
-                                interessados
-                            </div>
-                            <div class="profile-widget-item-value">10</div>
-                        </div>
-                        <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> acima
-                                do corte
-                            </div>
-                            <div class="profile-widget-item-value">6</div>
-                        </div>
-                        <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span>Vagas
-                            </div>
-                            <div class="profile-widget-item-value">15</div>
-                        </div>
-                    </div>
-                    <div class="profile-widget-items">
-                        <div class="profile-widget-item">
-                            <div class="profile-widget-item-label">Média total</div>
-                            <div class="profile-widget-item-value" style="font-size: 33px"> 20.2</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer text-center pt-0">
-                    <a href="#" class="btn btn-outline-primary btn-round">
-                        <i class="mdi mdi-18px mdi-plus"> </i> Exercício
+                    <a href="cursosinstituicao.php" class="btn btn-outline-primary btn-round">
+                        <i class="mdi mdi-18px mdi-pencil"> </i> Alterar Corte
                     </a>
                 </div>
             </div>
@@ -100,38 +64,84 @@ include($raiz . "files/php/topo.php"); ?>
                 <div class="profile-widget-header">
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label" style="font-size: 20px">Administração</div>
+                            <div class="profile-widget-item-label" style="font-size: 20px">Direito</div>
                         </div>
                     </div>
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
                             <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span>
-                                interessados
+                                Interessados
                             </div>
-                            <div class="profile-widget-item-value">10</div>
+                            <div class="profile-widget-item-value">1320</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> acima
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
                                 do corte
                             </div>
-                            <div class="profile-widget-item-value">6</div>
+                            <div class="profile-widget-item-value">301</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span>Vagas
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span> Vagas
                             </div>
-                            <div class="profile-widget-item-value">15</div>
+                            <div class="profile-widget-item-value">90</div>
                         </div>
                     </div>
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label">Média total</div>
-                            <div class="profile-widget-item-value" style="font-size: 33px"> 20.2</div>
+                            <div class="profile-widget-item-label">Média Geral</div>
+                            <div class="profile-widget-item-value" style="font-size: 33px"> 6.0</div>
                         </div>
                     </div>
                 </div>
                 <div class="card-footer text-center pt-0">
                     <a href="#" class="btn btn-outline-primary btn-round">
                         <i class="mdi mdi-18px mdi-plus"> </i> Exercício
+                    </a>
+                    <a href="cursosinstituicao.php" class="btn btn-outline-primary btn-round">
+                        <i class="mdi mdi-18px mdi-pencil"> </i> Alterar Corte
+                    </a>
+                </div>
+            </div>
+
+            <div class="card profile-widget">
+                <div class="profile-widget-header">
+                    <div class="profile-widget-items">
+                        <div class="profile-widget-item">
+                            <div class="profile-widget-item-label" style="font-size: 20px">Sistemas</div>
+                        </div>
+                    </div>
+                    <div class="profile-widget-items">
+                        <div class="profile-widget-item">
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span>
+                                Interessados
+                            </div>
+                            <div class="profile-widget-item-value">820</div>
+                        </div>
+                        <div class="profile-widget-item">
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
+                                do corte
+                            </div>
+                            <div class="profile-widget-item-value">423</div>
+                        </div>
+                        <div class="profile-widget-item">
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-domain"></span> Vagas
+                            </div>
+                            <div class="profile-widget-item-value">120</div>
+                        </div>
+                    </div>
+                    <div class="profile-widget-items">
+                        <div class="profile-widget-item">
+                            <div class="profile-widget-item-label">Média Geral</div>
+                            <div class="profile-widget-item-value" style="font-size: 33px"> 5.7</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-center pt-0">
+                    <a href="#" class="btn btn-outline-primary btn-round">
+                        <i class="mdi mdi-18px mdi-plus"> </i> Exercício
+                    </a>
+                    <a href="cursosinstituicao.php" class="btn btn-outline-primary btn-round">
+                        <i class="mdi mdi-18px mdi-pencil"> </i> Alterar Corte
                     </a>
                 </div>
             </div>
