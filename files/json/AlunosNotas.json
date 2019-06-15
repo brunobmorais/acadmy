@@ -1,152 +1,754 @@
 {
-  "colegio":
-  {
+  "colegio": {
     "nome": "Colégio de Ensino Médio São José",
     "endereco": "Rua Pau Darco, n 110",
     "cidade": "Palmas/TO",
-    "discentes":[
-    {
-      "nome" : "Caetano Finisterre Burjack",
-      "cpf" : "123.123.123.12",
-      "nomeMae" : "Dorilene Noleto Burjack",
-      "notas" : 
+    "discentes": [
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    },
-    {
-      "nome" : "Bruno Santos Morais",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
+        "nome": "Caetano Finisterre Burjack",
+        "cpf": "123.123.123.12",
+        "nomeMae": "Dorilene Noleto Burjack",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
+      },
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    }, {
-      "nome" : "João Paulo de Souza Paiva",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
+        "nome": "Bruno Santos Morais",
+        "cpf": "121.121.121.12",
+        "nomeMae": "Teresinha de Jesus dos Santos Morais",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
+      },
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    }, {
-      "nome" : "Brendon Burjack da Silva",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
+        "nome": "João Paulo de Souza Paiva",
+        "cpf": "121.121.121.12",
+        "nomeMae": "Teresinha de Jesus dos Santos Morais",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
+      },
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    }, {
-      "nome" : "Maria Clara Burjack Silva",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
+        "nome": "Maria Clara Burjack Silva",
+        "cpf": "121.121.121.12",
+        "nomeMae": "Teresinha de Jesus dos Santos Morais",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
+      },
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    }, {
-      "nome" : "Laura Finisterre Burjack Meneses",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
+        "nome": "Laura Finisterre Burjack Meneses",
+        "cpf": "121.121.121.12",
+        "nomeMae": "Teresinha de Jesus dos Santos Morais",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
+      },
       {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
+        "nome": "Gisele Oliveira de Meneses Burjack",
+        "cpf": "121.121.121.12",
+        "nomeMae": "Teresinha de Jesus dos Santos Morais",
+        "notas": [
+          {
+            "disciplina": "historia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "geografia",
+            "notas": {
+              "b1": "7,5",
+              "b2": "8,5",
+              "b3": "7,6",
+              "b4": "9,4"
+            }
+          },
+          {
+            "disciplina": "filosofia",
+            "notas": {
+              "b1": "9,1",
+              "b2": "7,5",
+              "b3": "8,2",
+              "b4": "9,0"
+            }
+          },
+          {
+            "disciplina": "sociologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "quimica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "fisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "biologia",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "portugues",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "literatura",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "linguaEstrangeira",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "artes",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "educacaoFisica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          },
+          {
+            "disciplina": "matematica",
+            "notas": {
+              "b1": "9,5",
+              "b2": "8,5",
+              "b3": "9,2",
+              "b4": "9,1"
+            }
+          }
+        ]
       }
-    }, {
-      "nome" : "Gisele Oliveira de Meneses Burjack",
-      "cpf" : "121.121.121.12",
-      "nomeMae" : "Teresinha de Jesus dos Santos Morais",
-      "notas": 
-      {
-        "historia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "geografia": {"b1": "7,5", "b2": "8,5", "b3": "7,6", "b4": "9,4"},
-        "filosofia": {"b1": "9,1", "b2": "7,5", "b3": "8,2", "b4": "9,0"},
-        "sociologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "quimica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "fisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "biologia": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "portugues": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "literatura": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "linguaEstrangeira": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "artes": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "educacaoFisica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"},
-        "matematica": {"b1": "9,5", "b2": "8,5", "b3": "9,2", "b4": "9,1"}
-      }
-    }
     ]
   }
 }
+
