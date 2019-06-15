@@ -1,0 +1,45 @@
+{
+  "cursos":
+  [
+    {
+      "nome": "Direito",
+      "pesos": 
+      { 
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    },
+    {
+      "nome": "Administracao",
+      "pesos": 
+      { 
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    },
+    {
+      "nome": "Sistemas de Informação",
+      "pesos": 
+      {
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    },
+    {
+      "nome": "Economia",
+      "pesos": 
+      {
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    },{
+      "nome": "Matemática",
+      "pesos": 
+      {
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    },{
+      "nome": "Engenharia Elétrica",
+      "pesos": 
+      {
+        "humanas" : 3, "natureza" : 3, "linguagens" : 3, "matematica" : 3
+      }
+    }
+  ]
+}
