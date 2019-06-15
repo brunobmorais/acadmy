@@ -25,7 +25,7 @@ include($raiz . "files/php/topo.php"); ?>
                         <div class="pricing-padding">
                             <div class="pricing-price">
                                 <div>Grátis</div>
-                                <div>P/ Sempre</div>
+                                <div>p/ sempre</div>
                             </div>
                             <div class="pricing-details">
                                 <div class="pricing-item">
