@@ -134,68 +134,6 @@ $matematica = 0;
             </div>
     </section>
 </div>
-<!-- Modal -->
-<div class="modal fade" id="modalEdicaoPerfil" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content modal-lg">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Editar Dados</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label>Curso pretendido</label>
-                    <select class="form-control">
-                        <option>Direito</option>
-                        <option>Economia</option>
-                        <option>Matemática</option>
-                        <option>Administração</option>
-                        <option>Sistemas</option>
-                        <option>Medicina</option>
-                        <option>Engenharia</option>
-                        <option>Farmácia</option>
-                        <option>Contábeis</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Cidade</label>
-                    <select class="form-control">
-                        <option>Todas do TO</option>
-                        <option>Palmas</option>
-                        <option>Porto Nacional</option>
-                        <option>Paraíso</option>
-                        <option>Gurupí</option>
-                        <option>Araguaína</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label class="form-label">Turno Preferencial</label>
-                    <div class="selectgroup w-100">
-                        <label class="selectgroup-item">
-                            <input type="radio" name="value" value="50" class="selectgroup-input" checked="">
-                            <span class="selectgroup-button">Matutino</span>
-                        </label>
-                        <label class="selectgroup-item">
-                            <input type="radio" name="value" value="100" class="selectgroup-input">
-                            <span class="selectgroup-button">Noturno</span>
-                        </label>
-                        <label class="selectgroup-item">
-                            <input type="radio" name="value" value="150" class="selectgroup-input">
-                            <span class="selectgroup-button">Indiferente</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!-- Modal -->
