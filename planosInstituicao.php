@@ -17,6 +17,15 @@ include($raiz . "files/php/topo.php"); ?>
             <h2 class="section-title">Planos para Universidades</h2>
             <p class="section-lead">Econtre os melhores acadêmicos</p>
             <div class="row">
+                <h4>Porquê AcadMy é ideal para sua instituição?</h4>
+                Com o AcadMy você tem acesso a mais de 21 mil estudantes interessados em cursar faculdade.
+                Cada aluno é segmentado por interesse e por sua notas. Utilizamos engenharia de dados para
+                levar até você o perfil ideal de aluno para cada curso de sua instituição.
+                São realizados calculos com as notas por disciplinas,
+            </div>
+
+
+            <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="pricing">
                         <div class="pricing-title">
