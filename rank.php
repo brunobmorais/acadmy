@@ -14,9 +14,9 @@ include($raiz . "files/php/topo.php"); ?>
             <!--<h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>-->
             <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3></a>
+            <h4>Rank</h4>
             <div class="card">
                 <div class="card-header">
-                    <h4>Rank dos alunos</h4>
                     <div class="card-header-action">
                         <a href="#" class="btn btn-primary">
                             <span class="mdi mdi-school"></span> Rank escolas

@@ -11,7 +11,8 @@ include($raiz . "files/php/topo.php"); ?>
 <div class="container meu-container">
     <section class="section">
         <div class="section-body">
-
+            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3></a>
+            <h4>Meu estudo</h4>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="card card-statistic-1">

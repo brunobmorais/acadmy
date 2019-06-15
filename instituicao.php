@@ -17,6 +17,9 @@ include($raiz . "files/php/topo.php"); ?>
             <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/>
             <a class="btn btn-link float-right text-primary"> <span class="mdi mdi-18px mdi-account"></span> Meus dados</a></h3></a>
 
+            <h4>Perfil</h4>
+
+
             <div class="card profile-widget">
                 <div class="profile-widget-header">
                     <div class="profile-widget-items">
@@ -32,8 +35,7 @@ include($raiz . "files/php/topo.php"); ?>
                             <div class="profile-widget-item-value">1104</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
-                                do corte
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Aptos
                             </div>
                             <div class="profile-widget-item-value">254</div>
                         </div>
@@ -74,8 +76,7 @@ include($raiz . "files/php/topo.php"); ?>
                             <div class="profile-widget-item-value">1320</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
-                                do corte
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Aptos
                             </div>
                             <div class="profile-widget-item-value">301</div>
                         </div>
@@ -117,8 +118,7 @@ include($raiz . "files/php/topo.php"); ?>
                             <div class="profile-widget-item-value">820</div>
                         </div>
                         <div class="profile-widget-item">
-                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Acima
-                                do corte
+                            <div class="profile-widget-item-label"><span class="mdi mdi-18px mdi-account"></span> Aptos
                             </div>
                             <div class="profile-widget-item-value">423</div>
                         </div>
