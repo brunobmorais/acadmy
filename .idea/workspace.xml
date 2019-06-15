@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba93b534-389f-48a7-a824-60342bcfb3ec" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/json/AlunosNotas.json" beforeDir="false" afterPath="$PROJECT_DIR$/files/json/AlunosNotas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfilAluno.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilAluno.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/php/topo.php" beforeDir="false" afterPath="$PROJECT_DIR$/files/php/topo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +56,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/files/php/topo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
+=======
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/php/class/Variavel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/php/topo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,8 +122,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perfilAluno.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="279">
               <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+=======
+            <state relative-caret-position="136">
+              <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
             </state>
           </provider>
         </entry>
@@ -158,11 +215,15 @@
         <option value="$PROJECT_DIR$/files/php/header.php" />
         <option value="$PROJECT_DIR$/files/php/rodape.php" />
         <option value="$PROJECT_DIR$/files/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/files/php/topo.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/files/json/AlunosNotas.json" />
         <option value="$PROJECT_DIR$/perfilAluno.php" />
+=======
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
       </list>
     </option>
   </component>
@@ -273,13 +334,21 @@
       <workItem from="1560447710007" duration="5037000" />
       <workItem from="1560558937944" duration="6428000" />
       <workItem from="1560565476290" duration="4976000" />
+<<<<<<< HEAD
       <workItem from="1560572457155" duration="268000" />
       <workItem from="1560573631970" duration="2385000" />
+=======
+      <workItem from="1560572457155" duration="2278000" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="161302000" />
+=======
+    <option name="totallyTimeSpent" value="160927000" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -300,7 +369,11 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32775453" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32850242" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -499,6 +572,7 @@
     <entry file="file://$PROJECT_DIR$/mods/sist/usua/senh/index.php" />
     <entry file="file://$PROJECT_DIR$/mods/sist/index.php" />
     <entry file="file://$PROJECT_DIR$/mods/sist/usua/index.php" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -506,6 +580,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
     <entry file="file://$PROJECT_DIR$/files/php/class/Variavel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -534,8 +610,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/css/style.css">
+    <entry file="file://$PROJECT_DIR$/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="5192">
           <caret line="236" column="18" selection-start-line="236" selection-start-column="18" selection-end-line="236" selection-end-column="18" />
         </state>
@@ -559,11 +636,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-468">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+=======
+        <state relative-caret-position="1326">
+          <caret line="78" column="104" selection-start-line="78" selection-start-column="104" selection-end-line="78" selection-end-column="104" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="78" column="104" selection-start-line="78" selection-start-column="104" selection-end-line="78" selection-end-column="104" />
         </state>
@@ -601,6 +683,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+=======
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/php/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+>>>>>>> 6dc30b16c5a93aeb87a20b5193df8e212cde7d55
         </state>
       </provider>
     </entry>
