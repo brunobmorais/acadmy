@@ -1,0 +1,16 @@
+{
+  "usuarios":
+  [
+    {
+      "nome": "Bruno Santos Morais",
+      "email": "brunomoraisti@gmail.com",
+      "cpf": "00974147192",
+      "senha": "123456",
+      "nomeescola": "Colegio Estadual São José",
+      "tipo": "Aluno",
+      "cidade": "Palmss/TO",
+      "opcaocurso": "Administração",
+      "foto": "1.jpg"
+    }
+  ]
+}

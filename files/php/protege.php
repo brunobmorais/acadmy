@@ -1,5 +1,5 @@
 <?php
-session_name("SOS193");
+session_name("ACADMY");
 session_start();
 if ((!isset($_SESSION['EMAIL']))) {
     $_SESSION["REDIRECIONA"]=$_SERVER['PHP_SELF'];

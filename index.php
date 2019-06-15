@@ -1,7 +1,7 @@
 <?php
 $raiz = str_repeat("../", $level = 0);
 
-/*include($raiz . "files/php/protege.php");*/
+include($raiz . "files/php/protege.php");
 include($raiz . "files/php/includes.php");
 include($raiz . "files/php/header.php");
 include($raiz . "files/php/topo.php"); ?>

@@ -8,7 +8,7 @@
  */
 class Sessao
 {
-    var $nomeSessao = "SOS193";
+    var $nomeSessao = "ACADMY";
 
     public function __construct()
     {

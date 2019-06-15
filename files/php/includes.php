@@ -29,10 +29,14 @@ $alerta         = new Alerta();
 $notificacao    = new Push();
 
 //PEGAR VALORES DA SESSÃO
-$codUsuarioSessao           = $sessao->pegarCampo("CODUSUARIO");
-$fotoUsuarioSessao          = $sessao->pegarCampo("FOTO");
 $nomeUsuarioSessao          = $sessao->pegarCampo("NOME");
 $emailUsuarioSessao         = $sessao->pegarCampo("EMAIL");
+$cpfcnpjUsuarioSessao       = $sessao->pegarCampo("CPFCNPJ");
+$nomeEscolaUsuarioSessao    = $sessao->pegarCampo("NOMEESCOLA");
+$tipoUsuarioSessao          = $sessao->pegarCampo("TIPO");
+$cidadeUsuarioSessao        = $sessao->pegarCampo("CIDADE");
+$opcaoCursoUsuarioSessao    = $sessao->pegarCampo("OPCAOCURSO");
+$fotoUsuarioSessao          = $sessao->pegarCampo("FOTO");
 $nomeQuebradoUsuarioSessao  = explode(" ", $nomeUsuarioSessao);
 
 //INCLUDE MÓDULO

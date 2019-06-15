@@ -8,7 +8,7 @@
             <ul class="navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                        <div class="d-sm-none d-lg-inline-block">Fulano</div>
+                        <div class="d-sm-none d-lg-inline-block"><?=$nomeQuebradoUsuarioSessao[0]?></div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <div class="dropdown-title">Opções</div>
@@ -83,6 +83,10 @@
 
     @media (min-width: 1024px) {
         .tituloMovel{
+            display: none;
+        }
+
+        .navbottom{
             display: none;
         }
     }

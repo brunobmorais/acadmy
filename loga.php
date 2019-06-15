@@ -8,58 +8,54 @@ $aRedireciona = $sessao->pegarCampo("REDIRECIONA");
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$retorno = array();
+$arquivo = $raiz."files/json/usuarios.json";
 
-$sql = "SELECT * FROM SIS_USUARIO AS U WHERE U.EMAIL = '" . $email . "'";
-$rsClientes = $banco->executeQuery($sql);
+$info = file_get_contents($arquivo);
+//print_r($info);
+//faz o parsing na string, gerando um objeto PHP
+$obj = json_decode($info);
+    if (count($obj)) {
+        $discentes = $obj->usuarios;
+        foreach ($discentes as $cadaAluno) {
+            if ($cadaAluno->email == $email) {
 
-if ($banco->quantidade($rsClientes)>0){
+                $sessao->gravarCampo("NOME", $cadaAluno->nome);
+                $sessao->gravarCampo("EMAIL", $cadaAluno->email);
+                $sessao->gravarCampo("CPF", $cadaAluno->cpf);
+                $sessao->gravarCampo("NOMEESCOLA", $cadaAluno->nomeescola);
+                $sessao->gravarCampo("TIPO", $cadaAluno->tipo);
+                $sessao->gravarCampo("CIDADE", $cadaAluno->cidade);
+                $sessao->gravarCampo("OPCAOCURSO", $cadaAluno->opcaocurso);
+                $sessao->gravarCampo("FOTO", $cadaAluno->foto);
 
-    $dados = $banco->pegarCampos($rsClientes);
+                $retorno['error'] = "0";
+                $retorno['msg'] = "";
 
-    if ($func->verify_password_hash($senha,$dados[0]->SENHA)){
+                if (empty($aRedireciona)) {
+                    $retorno['redireciona'] = "./";
+                } else {
+                    $sessao->gravarCampo("REDIRECIONA", "");
+                    $retorno['redireciona'] = $aRedireciona;
+                }
 
-
-        if ($dados[0]->SITUACAO!=1) {
-            //$alerta->warning("ERRO! USUÁRIO INATIVO, FALE COM O RH!", "./");
-            $retorno['error'] = "1";
-            $retorno['msg']="Usuário inativo, fale com o RH!";
-            echo json_encode($retorno);
-        }
-        else {
-            $data = $func->pegarDataAtualBanco();
-            $sql = "UPDATE SIS_USUARIO SET ULTIMOACESSO='".$data."' WHERE CODUSUARIO=".$dados[0]->CODUSUARIO;
-            $result = $banco->executeQuery($sql);
-
-            $sessao->gravarCampo("CODUSUARIO", $dados[0]->CODUSUARIO);
-            $sessao->gravarCampo("EMAIL", $dados[0]->EMAIL);
-            $sessao->gravarCampo("TELEFONE", $dados[0]->TELEFONE);
-            $sessao->gravarCampo("NOME", $dados[0]->NOME);
-            $sessao->gravarCampo("FOTO", $dados[0]->FOTO);
-            $sessao->gravarCampo("SITUACAO", $dados[0]->SITUACAO);
-
-            $retorno['error'] = "0";
-            $retorno['msg']="";
-
-            if (empty($aRedireciona)) {
-                $retorno['redireciona']="./";
+                echo json_encode($retorno);
             } else {
-                $sessao->gravarCampo("REDIRECIONA", "");
-                $retorno['redireciona']=$aRedireciona;
+                $retorno['error'] = "1";
+                $retorno['msg'] = "Login ou senha incorreto!";
+                echo json_encode($retorno);
             }
-
-            echo json_encode($retorno);
-
         }
     } else {
-        $retorno['error'] = "1";
-        $retorno['msg']="Login ou senha incorreto!";
-        echo json_encode($retorno);
-
-    }
-} else {
     $retorno['error'] = "1";
     $retorno['msg']="Usuário não cadastrado!";
     echo json_encode($retorno);
 }
+
+
+
+
+
+
+
+
 ?>
