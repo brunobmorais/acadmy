@@ -1,6 +1,6 @@
 
 // esse é o nome que seu cache terá na caches API
-var CACHE_NAME = 'acadmy.v26.04.2019.09.45';
+var CACHE_NAME = 'acadmy.v27.04.2019.09.45';
 
 // aqui você escolhe quais arquivos serão cacheados,
 //  basicamente todos os arquivos podem ser cacheados

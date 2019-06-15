@@ -2,7 +2,7 @@
   "short_name": "acadmy",
   "name": "acadmy",
   "lang": "pt-BR",
-  "start_url": "/acadmy/login.php",
+  "start_url": "./login.php",
   "display": "standalone",
   "theme_color": "#6a1b9a",
   "background_color": "#6a1b9a",
