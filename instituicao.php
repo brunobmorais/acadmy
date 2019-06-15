@@ -14,9 +14,8 @@ include($raiz . "files/php/topo.php"); ?>
         <div class="section-body">
             <!--<h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>-->
-            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>" <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/>
-            <a class="btn btn-link float-right text-primary"> <span class="mdi mdi-18px mdi-account"></span> Meus dados</a></h3>
-
+            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/>
+            <a class="btn btn-link float-right text-primary"> <span class="mdi mdi-18px mdi-account"></span> Meus dados</a></h3></a>
 
             <div class="card profile-widget">
                 <div class="profile-widget-header">
