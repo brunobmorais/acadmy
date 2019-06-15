@@ -28,7 +28,7 @@ if (strpos( $currentpage, "index.php" )){
                 <a href="cursos.php#cursos" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Cursos</div>
                 </a>
-                <a href="#" class="nav-link nav-link-lg nav-link-user">
+                <a href="exercicios.php" class="nav-link nav-link-lg nav-link-user">
                     <div class="d-sm-none d-lg-inline-block">Exercícios</div>
                 </a>
                 <li class="dropdown">
@@ -65,7 +65,7 @@ if (strpos( $currentpage, "index.php" )){
         .profile-widget{
             margin-top: 0px;
         }
-        
+
         .navbottom .navbar {
             background-color: #fff;
             overflow: hidden;

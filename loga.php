@@ -11,10 +11,8 @@ $senha = $_POST['senha'];
 $arquivo = $raiz."files/json/usuarios.json";
 
 $info = file_get_contents($arquivo);
-//print_r($info);
-//faz o parsing na string, gerando um objeto PHP
 $obj = json_decode($info);
-    if (count($obj)) {
+    if (count($obj)>0) {
         $discentes = $obj->usuarios;
         foreach ($discentes as $cadaAluno) {
             if ($cadaAluno->email == $email) {
@@ -39,11 +37,13 @@ $obj = json_decode($info);
                 }
 
                 echo json_encode($retorno);
-            } else {
+
+
+            } /*else {
                 $retorno['error'] = "1";
                 $retorno['msg'] = "Login ou senha incorreto!";
                 echo json_encode($retorno);
-            }
+            }*/
         }
     } else {
     $retorno['error'] = "1";

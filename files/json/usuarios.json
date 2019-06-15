@@ -11,6 +11,17 @@
       "cidade": "Palmss/TO",
       "opcaocurso": "Administração",
       "foto": "1.jpg"
+    },
+    {
+      "nome": "Caetano Finisterre",
+      "email": "caetano.burjack@gmail.com",
+      "cpf": "11111111111",
+      "senha": "123456",
+      "nomeescola": "Colegio Estadual Dom Pedro II",
+      "tipo": "Aluno",
+      "cidade": "Porto Nacional/TO",
+      "opcaocurso": "Direito",
+      "foto": "2.jpg"
     }
   ]
 }

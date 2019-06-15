@@ -89,6 +89,13 @@ include($raiz . "files/php/header.php") ?>
                         <div class="card card-primary in-up" id="telaDadosCnpj" style="display: none">
                             <div class="card-header"><h4>Confirme as informações</h4></div>
                             <div class="card-body">
+                                <div class="alert alert-light alert-has-icon">
+                                    <div class="alert-icon"><i class="far fa-lightbulb"></i></div>
+                                    <div class="alert-body">
+                                        <div class="alert-title">Atenção</div>
+                                        Seus dados serão enviado para a equipe de gestão das instituições e em breve entraremos em contato para confirmar seu cadastro
+                                    </div>
+                                </div>
                                 <div class="form-group">
                                     <label for="email">Dados da Instituição</label>
                                     <p>Faculdade tal, endereço tal</p>
@@ -112,7 +119,7 @@ include($raiz . "files/php/header.php") ?>
                                     </button>
                                     <button type="button" class="btn btn-lg btn-primary btn-round font-weight-bold float-right" tabindex="4"
                                             onclick="login();">
-                                        Cadastrar
+                                        Enviar
                                     </button>
                                 </div>
                             </div>
