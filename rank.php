@@ -18,7 +18,7 @@ include($raiz . "files/php/topo.php"); ?>
             <div class="card">
                 <div class="card-header">
                     <div class="card-header-action">
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" data-toggle="modal" data-target="#modalRankEscolas" class="btn btn-primary">
                             <span class="mdi mdi-school"></span> Rank escolas
                         </a>
                         <a href="#" class="btn btn-outline-primary">
@@ -276,3 +276,41 @@ include($raiz . "files/php/topo.php"); ?>
     </section>
 </div>
 <? include($raiz . "files/php/rodape.php") ?>
+
+<!-- Modal -->
+<div class="modal fade" id="modalRankEscolas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Rank das escolas</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-0">1. COC Palmas/TO - 99.8</p>
+                <p class="mb-0">2. C. Olimpo Palmas/TO - 99</p>
+                <p class="mb-0">3. E. E. São José Palmas/TO- 98</p>
+                <p class="mb-0">4. E. M. Maria Angela Palmas/TO - 97</p>
+                <p class="mb-0">5. E. M. São Jorge Palmas/TO - 96</p>
+                <p class="mb-0">6. C. São João Palmas/TO - 95</p>
+                <p class="mb-0">7. E. M. Maria Angela Palmas/TO - 94</p>
+                <p class="mb-0">8. E. M. Maria Angela Palmas/TO - 93</p>
+                <p class="mb-0">9. E. M. Pedro - 92</p>
+                <p class="mb-0">10. E. M. Tereza Agular Angela - 91</p>
+                <p class="mb-0">11. E. M. Pedro Jorge - 90</p>
+                <p class="mb-0">12. E. M. Caetano Veloso - 88</p>
+                <p class="mb-0">13. E. M. Maria Antonia - 87</p>
+                <p class="mb-0">14. E. M. Antonio - 86</p>
+                <p class="mb-0">15. E. M. São Paulo - 85</p>
+                <p class="mb-0">16. E. M. Maria Angela - 84</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Compartilhar</button>
+            </div>
+        </div>
+    </div>
+</div>
