@@ -65,10 +65,10 @@ include($raiz . "files/php/topo.php"); ?>
                         </div>
                         <div class="card-wrap">
                             <div class="card-header">
-                                <h4>Online Users</h4>
+                                <h4>Proficiência</h4>
                             </div>
                             <div class="card-body">
-                                47
+                                4
                             </div>
                         </div>
                     </div>
@@ -76,30 +76,42 @@ include($raiz . "files/php/topo.php"); ?>
             </div>
 
 
+            <div class="col-12 col-md-6 col-lg-6 float-left">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Progresso nos Testes de Proficiência</h4>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="myChart3"></canvas>
+                    </div>
+                </div>
+            </div>
 
-            <div class="statistic-details mt-sm-4">
+            <div class="statistic-details mt-sm-4 float-left col-12 col-md-6 col-lg-6">
                 <div class="statistic-details-item">
-                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span> 7%</span>
-                    <div class="detail-value">$243</div>
-                    <div class="detail-name">Today's Sales</div>
+                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span> 3%</span>
+                    <div class="detail-value">8.4</div>
+                    <div class="detail-name">HUMANAS</div>
                 </div>
                 <div class="statistic-details-item">
-                    <span class="text-muted"><span class="text-danger"><i class="fas fa-caret-down"></i></span> 23%</span>
-                    <div class="detail-value">$2,902</div>
-                    <div class="detail-name">This Week's Sales</div>
+                    <span class="text-muted"><span class="text-danger"><i class="fas fa-caret-down"></i></span> 2%</span>
+                    <div class="detail-value">8.2</div>
+                    <div class="detail-name">NATUREZA</div>
                 </div>
                 <div class="statistic-details-item">
-                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span>9%</span>
-                    <div class="detail-value">$12,821</div>
-                    <div class="detail-name">This Month's Sales</div>
+                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span>5%</span>
+                    <div class="detail-value">9.6</div>
+                    <div class="detail-name">LINGUAGENS</div>
                 </div>
                 <div class="statistic-details-item">
-                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span> 19%</span>
-                    <div class="detail-value">$92,142</div>
-                    <div class="detail-name">This Year's Sales</div>
+                    <span class="text-muted"><span class="text-primary"><i class="fas fa-caret-up"></i></span> 4%</span>
+                    <div class="detail-value">8.9</div>
+                    <div class="detail-name">MATEMÁTICA</div>
                 </div>
             </div>
         </div>
     </section>
 </div>
 <? include($raiz . "files/php/rodape.php") ?>
+<script src="files/js/modules-chartjs.js"></script>
+<script src="../assets/js/page/modules-chartjs.js"></script>
