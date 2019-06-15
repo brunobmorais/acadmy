@@ -33,6 +33,7 @@
     <link href="<?= $raiz ?>files/plugin/stisla/css/style.css" rel="stylesheet"/>
     <link href="<?= $raiz ?>files/plugin/stisla/css/components.css" rel="stylesheet"/>
     <link href="<?= $raiz ?>files/css/style.css" rel="stylesheet"/>
+    <link rel="manifest" href="<?= $raiz ?>manifest.json">
 </head>
 <body class="layout-3">
     <div id="app">
