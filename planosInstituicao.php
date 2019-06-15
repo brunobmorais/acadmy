@@ -11,20 +11,33 @@ include($raiz . "files/php/topo.php"); ?>
 <div class="container meu-container">
     <section class="section">
         <div class="section-body">
-            <!--<h2 class="section-title">This is Example Page</h2>
-            <p class="section-lead">This page is just an example for you to create your own page.</p>-->
-            <a href="<?=$tipoUsuarioSessao=="Aluno"?'./index.php':'./instituicao.php'?>"> <h3 class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3></a>
+              <a href="<?= $tipoUsuarioSessao == "Aluno" ? './index.php' : './instituicao.php' ?>"><h3
+                        class="tituloMovel"><img src="<?= $raiz ?>files/img/logo-preto.png" height="50px"/></h3></a>
+            <div class="col-12">
+
+                <br><h5>Porquê AcadMy é ideal para sua instituição?</h5>
+                <hr>
+                <p>Com o AcadMy você tem acesso a mais de 21 mil estudantes interessados em cursar faculdade.<br>
+                    Cada aluno é segmentado por interesse e por sua notas. Utilizamos engenharia de dados para
+                    levar até você o perfil ideal de aluno para cada curso de sua instituição.
+                    <br>São realizados calculos com as notas por disciplinas, separando-as por áreas de conhecimento e
+                    considerando os pesos que você definir, se chega a nota final de cada aluno.</p>
+
+
+                <br><br> <h5>Como se dá o contato com os acadêmicos?</h5>
+                <hr>
+                <p>Por questões de privacidade, todos os primeiros contatos entre universidade e acadêmico
+                    serão intermediados pela AcadMy através do nosso serviço de webmail.
+                    <br>
+                    Para este serviço será cobrado uma taxa que varia entre os planos disponíveis.
+                </p>
+
+            </div>
+            <br><br>
+
+
             <h2 class="section-title">Planos para Universidades</h2>
             <p class="section-lead">Econtre os melhores acadêmicos</p>
-            <div class="row">
-                <h4>Porquê AcadMy é ideal para sua instituição?</h4>
-                Com o AcadMy você tem acesso a mais de 21 mil estudantes interessados em cursar faculdade.
-                Cada aluno é segmentado por interesse e por sua notas. Utilizamos engenharia de dados para
-                levar até você o perfil ideal de aluno para cada curso de sua instituição.
-                São realizados calculos com as notas por disciplinas,
-            </div>
-
-
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="pricing">
@@ -42,15 +55,18 @@ include($raiz . "files/php/topo.php"); ?>
                                     <div class="pricing-item-label">Acesso + 21 mil acadêmicos</div>
                                 </div>
                                 <div class="pricing-item">
-                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
+                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i>
+                                    </div>
                                     <div class="pricing-item-label">Segmentados por interesse</div>
                                 </div>
                                 <div class="pricing-item">
-                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
+                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i>
+                                    </div>
                                     <div class="pricing-item-label">Notas por áreas do conhecimento</div>
                                 </div>
                                 <div class="pricing-item">
-                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i></div>
+                                    <div class="pricing-item-icon bg-danger text-white"><i class="fas fa-times"></i>
+                                    </div>
                                     <div class="pricing-item-label">Contato via AcadMy Mail</div>
                                 </div>
                                 <div class="pricing-item">
