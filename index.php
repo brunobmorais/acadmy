@@ -38,7 +38,7 @@ include($raiz . "files/php/topo.php"); ?>
                     <div class="profile-widget-items">
                         <div class="profile-widget-item">
                             <div class="profile-widget-item-label">Minha média até o momento</div>
-                            <div class="profile-widget-item-value" style="font-size: 33px"><span class="mdi mdi-emoticon-happy-outline"></span> 35.2 <a class="btn btn-sm btn-secondary ">Quero aumentar</a> </div>
+                            <div class="profile-widget-item-value" style="font-size: 33px"><span class="mdi mdi-emoticon-happy-outline"></span> 35.2 <a href="esquecisenha.php" class="btn btn-sm btn-secondary ">Quero aumentar</a> </div>
                         </div>
                     </div>
                 </div>
