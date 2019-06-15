@@ -60,7 +60,7 @@ if (strpos( $currentpage, "index.php" ) || strpos( $currentpage, "/instituicao.p
 <div class="navbottom">
 <div class="navbar">
     <?if ($tipoUsuarioSessao=="Aluno"){?>
-        <a href="meuEstudo.php" class="<?=$meuestudoactive?>" ><span class="mdi  mdi-18px mdi-school"></span> Estudo</a>
+        <a href="meuEstudo.php" class="<?=$meuestudoactive?>" ><span class="mdi  mdi-18px mdi-book"></span> Estudo</a>
     <?} else {?>
         <a href="<?=$tipoUsuarioSessao=="Aluno"?'index.php#perfil':'instituicao.php'?>" class="<?=$perfilactive?>" ><span class="mdi mdi-18px mdi-home"></span> Perfil</a>
     <?}?>
