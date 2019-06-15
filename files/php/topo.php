@@ -1,3 +1,16 @@
+<?
+$currentpage = $_SERVER['REQUEST_URI'];
+
+if (strpos( $currentpage, "index.php" )){
+    $perfilactive = "active";
+} else if (strpos( $currentpage, "rank" )){
+    $rankactive = "active";
+} else if (strpos( $currentpage, "cursos" )){
+    $cursosactive = "active";
+}
+?>
+
+
 <div class="navbartopo">
     <div class="navbar-bg" id="navbartopobg"></div>
     <nav class="navbar navbar-expand-lg main-navbar">
@@ -6,7 +19,20 @@
             <form class="form-inline ml-auto">
             </form>
             <ul class="navbar-nav navbar-right">
+                <a href="./index.php" class="nav-link nav-link-lg nav-link-user">
+                    <div class="d-sm-none d-lg-inline-block">Perfil</div>
+                </a>
+                <a href="rank.php#rank" class="nav-link nav-link-lg nav-link-user">
+                    <div class="d-sm-none d-lg-inline-block">Rank</div>
+                </a>
+                <a href="cursos.php#cursos" class="nav-link nav-link-lg nav-link-user">
+                    <div class="d-sm-none d-lg-inline-block">Cursos</div>
+                </a>
+                <a href="#" class="nav-link nav-link-lg nav-link-user">
+                    <div class="d-sm-none d-lg-inline-block">Exercícios</div>
+                </a>
                 <li class="dropdown">
+
                     <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                         <div class="d-sm-none d-lg-inline-block"><?=$nomeQuebradoUsuarioSessao[0]?></div>
                     </a>
@@ -29,9 +55,9 @@
 </div>
 <div class="navbottom">
 <div class="navbar">
-    <a href="#perfil" class="active"><span class="mdi mdi-home"></span> Perfil</a>
-    <a href="#rancking"><span class="mdi mdi-radar"></span> Ranck</a>
-    <a href="#cursos"><span class="mdi mdi-worker"></span>Cursos</a>
+    <a href="index.php#perfil" class="<?=$perfilactive?>" ><span class="mdi mdi-home"></span> Perfil</a>
+    <a href="rank.php#rank" class="<?=$rankactive?>"><span class="mdi mdi-radar"></span> Rank</a>
+    <a href="cursos.php#cursos"  class="<?=$cursosactive?>"><span class="mdi mdi-worker"></span>Cursos</a>
 </div>
 </div>
 <style>
