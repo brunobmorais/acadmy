@@ -2,7 +2,7 @@
     <div class="navbar-bg" id="navbartopobg"></div>
     <nav class="navbar navbar-expand-lg main-navbar">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><?= $variavel->_NOMEINSTITUICAO ?></a>
+            <a href="index.html" class="navbar-brand"><img src="<?=$raiz?>files/img/logo-branco.png" height="40px"/> </a>
             <form class="form-inline ml-auto">
             </form>
             <ul class="navbar-nav navbar-right">
